@@ -8,10 +8,6 @@
         	fx: 'fade', 
 			timeout: 6000	
         });
-		jQuery('#lsa_img_cycle').cycle({			
-        	fx: 'fade', 
-			timeout: 6000	
-        });		
     });
     </script>
        
@@ -36,9 +32,7 @@
         </div>
     </div>
     <div class="lsa_img_index">
-        <div id="lsa_img_cycle" class="lsa_img_item">                        
-            <?php lsa_image(); ?>
-        </div>
+        <?php putRevSlider("homepage","homepage"); ?>
     </div>
     <br clear="all" />
     
