@@ -1,0 +1,557 @@
+/*   
+Theme Name: LSA
+Theme URI: http://www.lsadecatur.net
+Description: 
+Author: DCC Marketing
+Author URI: http://www.dccmarketing.com
+Version: 1.0
+*/
+
+
+body { 
+	/*background: #7f0104 url(images/bg.jpg) center;*/
+	background: #7f0104 url(images/bg_body.jpg) center repeat-y;
+	margin: 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, img {
+	margin: 0;
+	padding: 0;
+}
+td {
+	vertical-align: top;
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}
+div.lsa_container {
+	margin: 0 auto;
+	/*width: 990px;
+	background: #fff;*/
+	width: 1020px;
+	background: url(images/png/bg_container.png) top repeat-y;
+	padding-top: 8px;
+}
+
+/* [[  Header / Navigation  ]] */
+div.lsa_header {
+	position: relative;	
+	width: 990px; 
+	margin: 0 auto;
+	height: 225px;
+	background: url(images/bg_header.jpg) top no-repeat;
+}
+div.lsa_logo {
+	position: relative;
+	float: left;
+	padding: 37px 0 0 32px;
+}
+
+ul.lsa_hdr_links {
+	position: relative;
+	float: right;
+	margin-right: 5px;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 14px;	
+	color: #444345;
+}
+ul.lsa_hdr_links li {
+	list-style: none;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	margin-top: 8px;
+}
+.lsa_hdr_links a {
+	text-decoration: none;
+	color: #444345;
+}
+.lsa_hdr_links a:hover {
+	color: #7f0104
+}
+
+/*  [[  Navigation  ]]  */
+ul.lsa_nav {
+	position: relative;	
+	/*width: 895px;
+	margin-left: auto;
+	margin-right: auto;*/
+	width: 910px;
+	margin: 0 auto;
+	padding-top: 24px;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 1px;
+}
+ul.lsa_nav li {
+	list-style: none;
+	float: left;
+	/*padding: 0 10px 0 10px;*/
+	padding: 0 6px 0 6px;
+	text-align: center;
+}
+.lsa_nav a {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px 2px #222;
+}
+.lsa_nav a:hover {
+	color: #999;
+}
+
+/*  [[  Content Wrap  ]]  */
+div.lsa_content_wrap {
+	position: relative;
+	width: 990px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: #fff url(images/bg_content.jpg) top repeat-y;	
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 12px;
+	color: #000;
+}
+
+/* [[ Home Page ]] */
+div.lsa_news_index {
+	position: relative;
+	float: left;
+	width: 341px;
+	height: 271px;
+	margin-left: 15px;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+div.lsa_img_index {
+	position: relative;
+	float: right;	
+	width: 600px;
+	height: 271px;
+	margin-right: 15px;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+div.lsa_news_item {
+	position: relative;
+	width: 330px;
+	height: 258px;
+	margin: 7px 0 0 5px;
+	background: url(images/bg_news_item.jpg) top no-repeat;
+}
+div.lsa_news_item h2 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+div.lsa_news_item h3 {
+	color: #000;
+	font-size: 16px;
+	margin: 20px 0 0 10px;
+}
+div.lsa_news_item p {
+	color: #000;
+	font-size: 12px;
+	margin: 10px 0 0 10px;
+}
+div.lsa_news_item a {
+	color: #000;
+	text-decoration: none;
+}
+div.lsa_news_item a:hover {
+	color: #ccc;
+}
+div.lsa_news_post {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 8px;
+	width: 282px; 	
+}
+div.lsa_img_item {
+	position: relative;
+	width: 593px;
+	height: 260px;
+	margin: 10px 0 0 10px;
+	/*background: url(images/bg_news_item.jpg) top no-repeat;*/
+}
+div.lsa_quick_links {
+	position: relative;
+	float: left;
+	width: 565px;
+	height: 213px;
+	margin: 10px 0 0 15px;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+div.lsa_quick_links_item {
+	position: relative;
+	width: 558px;
+	height: 196px;
+	margin: 10px 0 0 3px;
+	background: url(images/bg_quick_links.jpg) top no-repeat;
+}
+div.lsa_quick_links_item h2 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 20px;
+	padding-left: 18px;
+	padding-top: 7px;
+	letter-spacing: .5px;
+}
+ul.lsa_qlinks {
+	margin: 20px 0 0 200px;
+	list-style: none;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+.lsa_qlinks a {
+	color: #000;
+	text-decoration: none;
+}
+.lsa_qlinks a:hover {
+	color: #ccc;
+}
+div.lsa_announce {
+	position: relative;
+	float: right;
+	width: 374px;
+	height: 213px;
+	margin: 10px 15px 0 0;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}	
+div.lsa_announce_item {
+	position: relative;
+	width: 365px;
+	height: 192px;
+	margin: 10px 0 0 3px;
+	background: url(images/bg_announce.jpg) top no-repeat;
+}
+div.lsa_announce_item h2 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 20px;
+	padding-left: 18px;
+	padding-top: 7px;
+	letter-spacing: .5px;
+}	
+ul.lsa_announce {
+	margin: 20px 0 0 20px;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;	
+}
+ul.lsa_announce li {
+	list-style: none;
+	line-height: 1.5em;
+}
+	
+.lsa_announce a {
+	color: #000;
+	text-decoration: none;
+}
+.lsa_announce a:hover {
+	color: #ccc;
+}
+div.lsa_acct_links {
+	position: relative;
+	float: left;
+	width: 565px;
+	height: 176px;
+	margin: 10px 0 0 15px;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+div.lsa_acct_links_item {
+	position: relative;
+	width: 552px;
+	height: 166px;
+	margin: 7px 0 0 3px;
+	background: url(images/bg_acct_links.jpg) top no-repeat;
+}
+div.lsa_acct_links_item h2 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 20px;
+	padding-left: 18px;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+div.lsa_acct_links_item img {
+	padding: 24px 0 0 40px;
+}
+div.lsa_gallery {
+	position: relative;
+	float: right;
+	width: 374px;
+	height: 176px;
+	margin: 10px 15px 0 0;
+	background: #fff;
+	border: 1px solid #dcddde;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}	
+div.lsa_gallery_item {
+	position: relative;
+	width: 365px;
+	height: 166px;
+	margin: 10px 0 0 3px;
+	background: url(images/bg_gallery.jpg) top no-repeat;
+}
+div.lsa_gallery_item h2 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 20px;
+	padding-left: 18px;
+	padding-top: 7px;
+	letter-spacing: .5px;
+}
+
+
+/*  [[  Sub Navigation  ]]  */
+ul.lsa_sub_nav {
+	position: relative;
+	float: left;
+	width: 185px;	
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 12px;
+	color: #000;
+	margin: 10px 0 15px 15px;
+}
+ul.lsa_sub_nav li {
+	list-style: none;	
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+.lsa_sub_nav a {
+	color: #000;
+	text-decoration: none;
+}
+.lsa_sub_nav a:hover {
+	color: #ccc;
+}
+ul.lsa_subnav {
+	margin-left: 10px;	
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+ul.lsa_subnav li {
+	list-style: none;
+	padding: 0;
+	padding-left: 8px;
+	line-height: normal;
+}
+.lsa_subnav a {	
+	color: #fff;
+	text-decoration: none;
+}
+ul.lsa_sub_nav h3 {
+	font-size: 14px;
+	text-decoration: underline;
+	font-style: italic;
+	padding-bottom: 8px;
+}
+
+/*  [[  Sub Nav Content  ]]  */
+div.lsa_sub_content {
+	position: relative;
+	float: left;
+	width: 700px;
+	padding: 0 20px 10px 20px;
+	margin-left: 25px;
+	background: #fff;
+	min-height: 444px;
+	height: auto !important;
+	height: 444px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+}
+div.lsa_sub_content h1 {
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+}
+div.lsa_sub_content h2 {
+	font-size: 18px;
+	padding: 10px 0 10px 0;
+}
+div.lsa_sub_content h3 {
+	font-size: 15px;
+	padding: 10px 0 10px 0;
+}
+div.lsa_sub_content h4 {
+	font-size: 12px;
+	padding: 10px 0 10px 0;
+}
+div.lsa_sub_content p {
+	font-size: 12px;
+	color: #000;
+	margin-top: 8px;
+}
+
+
+/*  [[  Sub Page Content  ]]  */
+div.lsa_content {
+	position: relative;
+	width: 900px;
+	padding: 20px 20px 10px 20px;
+	/*margin-top: 20px;*/
+	margin-left: 25px;
+	background: #fff;
+	min-height: 444px;
+	height: auto !important;
+	height: 444px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+}
+div.lsa_content h1 {
+	font-size: 20px;
+	padding-top: 5px;
+}
+div.lsa_content h2 {
+	font-size: 18px;
+}
+div.lsa_content h3 {
+	font-size: 15px;
+}
+div.lsa_content h4 {
+	font-size: 12px;
+}
+div.lsa_content p {
+	font-size: 12px;
+	color: #000;
+	margin-top: 12px;
+}
+
+
+/*  [[  Category  ]]  */
+div.lsa_list_posts {
+	position: relative;
+	width: 690px;
+	border-bottom: 1px solid #ddd;	
+	padding-top: 15px;
+}
+div.lsa_list_posts p {
+	padding: 0 0 5px 0;
+}
+
+a.lsa-toggle, a.lsa-toggle:link, a.lsa-toggle:visited {	
+	color: #444;
+	text-decoration: none;
+}
+a.lsa-toggle:hover {
+	color: #ccc;
+}
+
+/*  [[  Footer  ]]  */
+div.lsa_footer {
+	position: relative;
+	width: 990px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: 'Ubuntu', arial, serif;
+}
+div.lsa_footer h1 {
+	color: #777;
+	font-size: 11px;
+	text-align: center;
+	font-weight: normal;
+	padding: 10px;
+}
+ul.lsa_footer_list {
+	position: relative;
+	width: 990px;
+	margin-top: 10px;
+}
+ul.lsa_footer_list li {
+	list-style: none;
+	float: left;	
+	padding: 10px;
+}
+ul.lsa_ftr_addr, ul.lsa_ftr_addr li {
+	list-style: none;
+	float: none;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 12px;
+	color: #777;
+	padding: 0;
+	line-height: 1.4em;
+}
+.lsa_ftr_addr a {
+	color: #777;
+	text-decoration: none;
+}
+.lsa_ftr_addr a:hover {
+	color: #333;
+}
+ul.lsa_ftr_links {
+	position: relative;	
+	margin: 0 auto;	
+	width: 990px;
+	height: 35px;
+	background: #900;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+}
+ul.lsa_ftr_links li {
+	list-style: none;
+	float: left;
+	padding: 12px 8px 12px 8px;
+	padding-left: 25px;
+	text-align: center;
+}
+.lsa_ftr_links a {
+	color: #fff;
+	text-decoration: none;
+}
+.lsa_ftr_links a:hover {
+	color: #ccc;
+}
+
+
+
